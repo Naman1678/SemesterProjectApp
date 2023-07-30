@@ -6,23 +6,30 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
+            "projectName": "SemesterProjectApp_c5dae572"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
             "projectName": "JavaProjectApp Semester Final_ef389571",
-            "jdkPath": "${env:JAVA_HOME}/bin", 
+            "jdkPath": "${env:JAVA_HOME}/bin",
             "cwd": "${workspaceFolder}",
             "classpath": [
                 ".",
                 "${workspaceFolder}"
             ],
-            "startupClass": "App" 
+            "startupClass": "App"
         },
         {
             "name": "Java",
             "type": "java",
             "request": "launch",
             "stopOnEntry": true,
-            "jdkPath": "${env:JAVA_HOME}/bin", 
-            "cwd": "${fileDirname}", 
-            "startupClass": "${fileBasenameNoExtension}", 
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
             "classpath": [
                 ".",
                 "${fileDirname}"
@@ -33,9 +40,9 @@
             "type": "java",
             "request": "launch",
             "stopOnEntry": true,
-            "jdkPath": "${env:JAVA_HOME}/bin", 
-            "cwd": "${fileDirname}", 
-            "startupClass": "${fileBasenameNoExtension}", 
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
             "classpath": [
                 ".",
                 "${fileDirname}"
@@ -47,7 +54,7 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "cwd": "${fileDirname}" 
+            "cwd": "${fileDirname}"
         },
         {
             "type": "java",
@@ -55,10 +62,10 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "JavaProjectApp_5a481d9d",
-            "jdkPath": "${env:JAVA_HOME}/bin", 
+            "jdkPath": "${env:JAVA_HOME}/bin",
             "cwd": "${workspaceFolder}",
             "vmArgs": "--module-path \"C:/Users/naman/Downloads/openjfx-20.0.2_windows-x64_bin-sdk/javafx-sdk-20.0.2/lib\" --add-modules javafx.controls,javafx.fxml",
-            "startupClass": "App" 
+            "startupClass": "App"
         }
     ]
 }
